@@ -1,0 +1,119 @@
+body{
+	font:15px Arial, Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+}
+/*Estilos globales*/
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+/*encabezado*/
+header{
+	background-color: #24282b;
+	color:#fff;
+	padding-top: 30px;
+	min-height: 40px;
+	border-bottom: 5px solid #1293d4;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #marca {
+     float: left;
+}
+header #marca h1{
+	margin: 0;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header .resaltado, header .actual a{
+	color: #1293d5;
+	font-weight: bold;
+}
+header a:hover{
+	color: #ccc;
+	font-weight: bold;
+}
+/*cabecera con imagen*/
+#cabecera1{
+	min-height: 300px;
+	text-align: right;
+	color: #4600ff;
+}
+#cabecera {
+	min-height: 500px;
+	background: url('../images/logo.jpg') no-repeat 0 -200px;
+	text-align: right;
+	color: #4600ff;
+}
+#cabecera h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px
+}
+#cabecera p{
+	font-size: 20px;
+}
+/*¨cajas*/
+#cajas{
+	margin-top: 20px
+}
+#cajas .caja{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+#cajas .caja img{
+	width: 210px;
+}
+/*lateral*/
+aside#lateral{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+.oscuro{
+	padding: 15px;
+	background-color: #35424a;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*main-col*/
+article#main-col{
+	float: left;
+	width: 65%;
+}
+ul#Servicios li{
+	color: #35424a;
+	list-style: none;
+	padding: 20px;
+	border: 1px solid #ccc;
+	margin-bottom: 5px;
+	background-color: #e6e6e6;
+}
+/*formulario de contacto*/
+input,textarea{
+	width: 100px;
+	height: 35px;
+	border: 1px solid gray;
+	margin-bottom: 5px;
+}
